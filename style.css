@@ -1,0 +1,138 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+header {
+  text-align: center;
+}
+
+.centered-list {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  color: #003049;
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center;    /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  min-height: 100vh;      /* Ensure body is full height of viewport */
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#eae2b7;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+
+h1 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+.image-circle {
+  border-radius: 50%; /* Makes the image circular */
+  width: 200px;       /* Set width */
+  height: 200px;      /* Set height */
+  object-fit: cover;  /* Ensures the image covers the circle */
+}
+  header {
+  text-aligin: center;
+  padding: 20px 0;
+}
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: #003049;
+  margin: 0 10px;
+  
+}
+
+nav a:hover {
+  color: #669BBC;
+  text-decoration: underline;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.25;
+}
+
+a {
+  color: #d62828; /* This will change the link color */
+}
+  a:hover { color: #f77f00;
+}
+/* Other existing styles */
+nav a {
+  margin: 0 10px;
+}
+nav a:hover {
+  color: #669BBC;
+  text-decoration: underline;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+<div> 
+
+#portfolio div {
+  text-align: center;
+  max-width: 10px;
+ 
+
+  #contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column; /* Ensures items stack vertically */
+  justify-content: center;
+  align-items: center;    /* Center items horizontally */
+  text-align: center;     /* Center text */
+}
+
+
+h4 { 
+  text-align: center;
+
+  
+  footer {
+    text-align: center
+  }
+  
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+
