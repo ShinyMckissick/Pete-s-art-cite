@@ -3,22 +3,23 @@
 
 header {
   text-align: center;
+  padding: 20px 0
+}
+.centered-list-wrapper {
+  text-align: center; /* Centers the list within the wrapper */
 }
 
 .centered-list {
+  display: inline-block; /* Makes the list behave like an inline element */
   list-style-position: inside;
-  padding: 0;
+  padding-left: 20px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 body {
   margin: 0;
   color: #003049;
-  display: flex;
-  flex-direction: column; 
-  align-items: center;    
-  justify-content: center;
   min-height: 100vh;      
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
@@ -73,6 +74,7 @@ nav a:hover {
 }
 
 article {
+  text-align: center
   padding: 50px 0;
 }
 
@@ -146,6 +148,10 @@ img {
   height: 10px;      /* Keeps the aspect ratio */
   object-fit: cover; /* Ensures the image fills the box if you set both width and height */
 }
-/* Add your solution below */
+.main-container {
+  width: 600px;           /* or any width you prefer */
+  margin: 0 auto;         /* centers the container horizontally */
+  text-align: left;       /* aligns text to the left inside the container */
+}
 
 
