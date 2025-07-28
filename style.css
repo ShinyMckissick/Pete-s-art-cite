@@ -70,10 +70,11 @@ img {
 /* Footer */
 footer {
   text-align: left;
+  background-color: red; /* test */
 }
 
 /* Other page elements */
 hr {
   border: 1px solid black;
 }
-*/ Blockquotes */
+/* Blockquotes */
